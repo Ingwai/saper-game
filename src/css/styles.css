@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&display=swap');
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #fcfcfc;
+	font-size: 36px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+table {
+	border-spacing: 1;
+}
+table td {
+	width: 50px;
+	height: 50px;
+	border: 1px solid grey;
+}
+table td div {
+	top: 50px;
+	text-align: center;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	opacity: 0;
+}
+
+.close {
+	opacity: 0;
+}
+
+.bomb {
+	background-color: #f44343;
+	color: #fff;
+	border-color: red;
+}
+.show {
+	opacity: 1;
+}
+
+#message,
+p,
+#points {
+	font-size: 30px;
+}
